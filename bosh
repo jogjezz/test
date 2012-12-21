@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+exec /usr/local/lib/bosh/run-server.js "$@" >> /var/log/bosh/bosh.log 2>> /var/log/bosh/bosh.err &
